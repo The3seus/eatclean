@@ -74,7 +74,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Recipes'),
+        title: Text('The Menu'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.search),

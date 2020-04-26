@@ -8,10 +8,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Eat Clean',
+      title: 'Eat Clean Cannabis',
       theme: ThemeData(
-        primaryColor: Color(0xff263341),
-        accentColor: Color(0xff8DB646),
+        primaryColor: Colors.blueGrey,
+        accentColor: Colors.lightGreen,
       ),
       home: HomePage(),
     );
